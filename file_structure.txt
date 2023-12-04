@@ -1,0 +1,48 @@
+find-my-battle-backend
+├── Database Schemas.pdf
+├── README.md
+├── backend
+│   ├── app
+│   │   ├── __init__.py
+│   │   ├── api
+│   │   │   ├── __init_.py
+│   │   │   ├── dependencies
+│   │   │   │   └── __init__.py
+│   │   │   ├── responses
+│   │   │   ├── routers
+│   │   │   │   ├── __init__.py
+│   │   │   │   ├── events.py
+│   │   │   │   ├── profiles.py
+│   │   │   │   └── users.py
+│   │   │   └── v1
+│   │   │       ├── __init__.py
+│   │   │       └── endpoints.py
+│   │   ├── core
+│   │   │   ├── __init__.py
+│   │   │   ├── config.py
+│   │   │   └── security.py
+│   │   ├── crud
+│   │   ├── db
+│   │   │   ├── __init__.py
+│   │   │   ├── models
+│   │   │   │   ├── __init__.py
+│   │   │   │   ├── event_model.py
+│   │   │   │   ├── profile_model.py
+│   │   │   │   └── user_model.py
+│   │   │   └── session.py
+│   │   ├── main.py
+│   │   └── schemas
+│   │       ├── __init__.py
+│   │       ├── event_schema.py
+│   │       ├── profile_schema.py
+│   │       └── user_schema.py
+│   └── tests
+│       ├── __init__.py
+│       ├── api
+│       └── crud
+├── compose.yml
+├── file_structure.txt
+├── pyvenv.cfg
+└── requirements.txt
+
+16 directories, 30 files
